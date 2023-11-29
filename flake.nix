@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "flake:nixpkgs";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
     # pre-commit-hooks-nix = {
     #   url = "github:cachix/pre-commit-hooks.nix";
