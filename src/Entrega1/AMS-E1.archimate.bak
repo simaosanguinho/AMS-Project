@@ -167,7 +167,7 @@
           <sourceConnection xsi:type="archimate:Connection" id="id-fac346ee720c44dfb27d757156db7648" source="id-7e791ac3f6744540b6b3d1576f41f250" target="id-29d8e1606bb44a6bb10498e6b31d342e" archimateRelationship="id-9ae653270baf4ecfb75f6b3e0a3e4d55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-f4fde79dd2014aa2bebb6454db60efb2" targetConnections="id-479ae352f6aa40ca8b7be03cbb36d0b6 id-3d82d5ebea654917872804d69409d017" archimateElement="id-0bffb7061dbf4e7dbc4849e697a15cd0">
-          <bounds x="942" y="252" width="120" height="27"/>
+          <bounds x="942" y="228" width="120" height="27"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-29d8e1606bb44a6bb10498e6b31d342e" targetConnections="id-fac346ee720c44dfb27d757156db7648 id-a9bb517c967d4422a12283d0a32b2ea2" archimateElement="id-36c550b6291348b8972104ade6ef3c9f">
           <bounds x="948" y="168" width="108" height="37"/>
@@ -181,11 +181,11 @@
           <bounds x="336" y="576" width="120" height="31"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-b84b379a57ba4f00bc1527030cdfa05c" targetConnections="id-173537ab371e49e7bcb5cbcdad6fae01 id-c8d295f121524075afd7c6fadfdcd8c2" archimateElement="id-1d854c3804fe4be683f81350e55fbbbc">
-          <bounds x="651" y="300" width="108" height="37"/>
+          <bounds x="651" y="288" width="108" height="37"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-70c9e41184cb438e9fa07e0c048ce329" source="id-b84b379a57ba4f00bc1527030cdfa05c" target="id-2ba704d81efb4708bc96a2981eef0c59" archimateRelationship="id-6b023f60711f4f959edc68f867d83bdb"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-2ba704d81efb4708bc96a2981eef0c59" targetConnections="id-70c9e41184cb438e9fa07e0c048ce329 id-b3d0ec19771b41d1bd7ef85be502f47f" archimateElement="id-61de739458b64e93b8d3500e3b1fa55f">
-          <bounds x="708" y="360" width="121" height="37"/>
+          <bounds x="644" y="348" width="121" height="37"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-7c50dede8fb14afdaf9baab4d1c3e5d1" targetConnections="id-dbcc8e6e9a3146498e204045290a2a07 id-2c4ce49a90c849d282bb45ad7996715c" archimateElement="id-64b356c1623b4de49d2aa0233c0748e7">
           <bounds x="636" y="180" width="137" height="85"/>
