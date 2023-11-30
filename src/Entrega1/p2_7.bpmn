@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_0tcdarf" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.17.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.20.0">
+  <bpmn:collaboration id="Collaboration_1ltdyn0">
+    <bpmn:participant id="Participant_01rakrm" name="Coordenador" processRef="Process_0qgmp1d" />
+    <bpmn:participant id="Participant_0xl08c8" name="Coordenador de Loja" processRef="Process_1wr4pjh" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_0qgmp1d" isExecutable="true" camunda:historyTimeToLive="180">
+    <bpmn:startEvent id="Event_1uhw5da">
+      <bpmn:outgoing>Flow_0hofqmm</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="Flow_0hofqmm" sourceRef="Event_1uhw5da" targetRef="Activity_1kyyt5o" />
+    <bpmn:sendTask id="Activity_1kyyt5o" name="Submeter pedido de geração de propostas de encomendas na SCM">
+      <bpmn:incoming>Flow_0hofqmm</bpmn:incoming>
+      <bpmn:outgoing>Flow_0vbchwr</bpmn:outgoing>
+    </bpmn:sendTask>
+    <bpmn:sequenceFlow id="Flow_0vbchwr" sourceRef="Activity_1kyyt5o" targetRef="Event_0gy63cb" />
+    <bpmn:sequenceFlow id="Flow_1jw0gz3" sourceRef="Event_0gy63cb" targetRef="Event_11of9dj" />
+    <bpmn:endEvent id="Event_11of9dj">
+      <bpmn:incoming>Flow_1jw0gz3</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:intermediateCatchEvent id="Event_0gy63cb" name="Resposta da PREDICT">
+      <bpmn:incoming>Flow_0vbchwr</bpmn:incoming>
+      <bpmn:outgoing>Flow_1jw0gz3</bpmn:outgoing>
+      <bpmn:messageEventDefinition id="MessageEventDefinition_19dw1a6" />
+    </bpmn:intermediateCatchEvent>
+  </bpmn:process>
+  <bpmn:process id="Process_1wr4pjh" isExecutable="false" />
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1ltdyn0">
+      <bpmndi:BPMNShape id="Participant_01rakrm_di" bpmnElement="Participant_01rakrm" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="1280" height="260" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1uhw5da_di" bpmnElement="Event_1uhw5da">
+        <dc:Bounds x="212" y="192" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_19mt9a9_di" bpmnElement="Activity_1kyyt5o">
+        <dc:Bounds x="305" y="145" width="170" height="130" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_11of9dj_di" bpmnElement="Event_11of9dj">
+        <dc:Bounds x="682" y="192" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0gy63cb_di" bpmnElement="Event_0gy63cb">
+        <dc:Bounds x="572" y="192" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="559" y="235" width="63" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0hofqmm_di" bpmnElement="Flow_0hofqmm">
+        <di:waypoint x="248" y="210" />
+        <di:waypoint x="305" y="210" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0vbchwr_di" bpmnElement="Flow_0vbchwr">
+        <di:waypoint x="475" y="210" />
+        <di:waypoint x="572" y="210" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1jw0gz3_di" bpmnElement="Flow_1jw0gz3">
+        <di:waypoint x="608" y="210" />
+        <di:waypoint x="682" y="210" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Participant_0xl08c8_di" bpmnElement="Participant_0xl08c8" isHorizontal="true">
+        <dc:Bounds x="160" y="440" width="990" height="250" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
