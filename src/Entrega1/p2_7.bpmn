@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_0tcdarf" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.17.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.20.0">
   <bpmn:collaboration id="Collaboration_1ltdyn0">
-    <bpmn:participant id="Participant_01rakrm" name="Coordenador" processRef="Process_0qgmp1d" />
+    <bpmn:participant id="Participant_01rakrm" name="Coordenador da DOC" processRef="Process_0qgmp1d" />
     <bpmn:participant id="Participant_0xl08c8" name="Coordenador de Loja" processRef="Process_1wr4pjh" />
   </bpmn:collaboration>
   <bpmn:process id="Process_0qgmp1d" isExecutable="true" camunda:historyTimeToLive="180">
@@ -9,7 +9,7 @@
       <bpmn:outgoing>Flow_0hofqmm</bpmn:outgoing>
     </bpmn:startEvent>
     <bpmn:sequenceFlow id="Flow_0hofqmm" sourceRef="Event_1uhw5da" targetRef="Activity_1kyyt5o" />
-    <bpmn:sendTask id="Activity_1kyyt5o" name="Submeter pedido de geração de propostas de encomendas na SCM">
+    <bpmn:sendTask id="Activity_1kyyt5o" name="Submeter pedido de geração de propostas de encomendas na PRE-SCM">
       <bpmn:incoming>Flow_0hofqmm</bpmn:incoming>
       <bpmn:outgoing>Flow_0vbchwr</bpmn:outgoing>
     </bpmn:sendTask>
@@ -60,7 +60,7 @@
         <di:waypoint x="682" y="210" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="Participant_0xl08c8_di" bpmnElement="Participant_0xl08c8" isHorizontal="true">
-        <dc:Bounds x="160" y="440" width="990" height="250" />
+        <dc:Bounds x="160" y="400" width="990" height="250" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
