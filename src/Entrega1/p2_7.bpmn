@@ -683,7 +683,7 @@
         <di:waypoint x="1222" y="1340" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="DataOutputAssociation_1yy0zfh_di" bpmnElement="DataOutputAssociation_1yy0zfh">
-        <di:waypoint x="672" y="540" />
+        <di:waypoint x="572" y="540" />
         <di:waypoint x="572" y="440" />
         <di:waypoint x="572" y="395" />
       </bpmndi:BPMNEdge>
