@@ -21,22 +21,22 @@
     <element xsi:type="archimate:BusinessProcess" name="Gestão do catálogo de oferta de tipos de artigos" id="id-1a4c31b164024d3d9eb6d6edb2a4f666"/>
     <element xsi:type="archimate:BusinessProcess" name="Gestão diária dos artigos em lojas" id="id-4de7396f4ccf462f85f171de23120397"/>
     <element xsi:type="archimate:BusinessService" name="Fazer entrega de encomendas" id="id-83f2e09b375a40fba72ad949f69f8fcd"/>
-    <element xsi:type="archimate:BusinessActor" name="Coordenador" id="id-f6ae2329d70e4905a32169d4cc4f2d4c"/>
-    <element xsi:type="archimate:BusinessActor" name="Operacional" id="id-78565c00e3864be9a505232bd382f1b2"/>
-    <element xsi:type="archimate:BusinessActor" name="Coordenador" id="id-5e9c16a1d0b94b8983d9acfe64aa5990"/>
-    <element xsi:type="archimate:BusinessActor" name="Operacional" id="id-38ed8a6a8ea34b95a041f2726930adf2"/>
-    <element xsi:type="archimate:BusinessActor" name="Coordenador" id="id-a398cac057e848e2be22895892ff001b"/>
-    <element xsi:type="archimate:BusinessActor" name="Operacional" id="id-954b9af63759407b885590f668b15086"/>
-    <element xsi:type="archimate:BusinessActor" name="Operacional" id="id-9b84df41bb9049098716e0bff7f02225"/>
-    <element xsi:type="archimate:BusinessActor" name="Coordenador" id="id-b05198c5e9464e28b1f6e5ff844be9dd"/>
-    <element xsi:type="archimate:BusinessActor" name="Coordenador" id="id-3f22ce8a80e1478cb3bd020e92a4f5e6"/>
-    <element xsi:type="archimate:BusinessActor" name="Operacional" id="id-b3fb6408299b45149cd485d4f4a7e86d"/>
-    <element xsi:type="archimate:BusinessActor" name="Operacional" id="id-469c289586bb431d84f8c23bb8ff8a0b"/>
-    <element xsi:type="archimate:BusinessActor" name="Coordenador" id="id-cb07064c185847ce96e3cbd6ca5ce9c1"/>
-    <element xsi:type="archimate:BusinessActor" name="Operacional" id="id-a6f1d58458254f5fbad2f10a7d1df5c4"/>
-    <element xsi:type="archimate:BusinessActor" name="Coordenador" id="id-1646db2b83f6406fbd774970d23c4c89"/>
-    <element xsi:type="archimate:BusinessActor" name="Coordenador" id="id-aa57182b29d6417296b4afdc548d6c3d"/>
-    <element xsi:type="archimate:BusinessActor" name="Operacional" id="id-2750c7f48b1b49148354f806340fa782"/>
+    <element xsi:type="archimate:BusinessActor" name="Coordenador Loja" id="id-f6ae2329d70e4905a32169d4cc4f2d4c"/>
+    <element xsi:type="archimate:BusinessActor" name="Operacional Loja" id="id-78565c00e3864be9a505232bd382f1b2"/>
+    <element xsi:type="archimate:BusinessActor" name="Coordenador DirT" id="id-5e9c16a1d0b94b8983d9acfe64aa5990"/>
+    <element xsi:type="archimate:BusinessActor" name="Operacional DirT" id="id-38ed8a6a8ea34b95a041f2726930adf2"/>
+    <element xsi:type="archimate:BusinessActor" name="Coordenador UnA" id="id-a398cac057e848e2be22895892ff001b"/>
+    <element xsi:type="archimate:BusinessActor" name="Operacional UnA" id="id-954b9af63759407b885590f668b15086"/>
+    <element xsi:type="archimate:BusinessActor" name="Operacional UnV" id="id-9b84df41bb9049098716e0bff7f02225"/>
+    <element xsi:type="archimate:BusinessActor" name="Coordenador UnV" id="id-b05198c5e9464e28b1f6e5ff844be9dd"/>
+    <element xsi:type="archimate:BusinessActor" name="Coordenador DOC" id="id-3f22ce8a80e1478cb3bd020e92a4f5e6"/>
+    <element xsi:type="archimate:BusinessActor" name="Operacional DOC" id="id-b3fb6408299b45149cd485d4f4a7e86d"/>
+    <element xsi:type="archimate:BusinessActor" name="Operacional UFC" id="id-469c289586bb431d84f8c23bb8ff8a0b"/>
+    <element xsi:type="archimate:BusinessActor" name="Coordenador UFC" id="id-cb07064c185847ce96e3cbd6ca5ce9c1"/>
+    <element xsi:type="archimate:BusinessActor" name="Operacional UGV" id="id-a6f1d58458254f5fbad2f10a7d1df5c4"/>
+    <element xsi:type="archimate:BusinessActor" name="Coordenador UGV" id="id-1646db2b83f6406fbd774970d23c4c89"/>
+    <element xsi:type="archimate:BusinessActor" name="Coordenador Loja" id="id-aa57182b29d6417296b4afdc548d6c3d"/>
+    <element xsi:type="archimate:BusinessActor" name="Operacional Loja" id="id-2750c7f48b1b49148354f806340fa782"/>
   </folder>
   <folder name="Application" id="id-415aba3cc11142a0983a02b94b5a4067" type="application">
     <element xsi:type="archimate:ApplicationService" name="Acesso público a documentos técnicos" id="id-2d2d2494616b4ba3a4f037355a0a5621"/>
