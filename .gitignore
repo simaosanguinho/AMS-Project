@@ -180,3 +180,5 @@ $RECYCLE.BIN/
 
 .direnv
 *.bak
+src/Entrega2/UML3_export.log
+src/Entrega2/UML3_import.log
