@@ -179,3 +179,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/git,osx,vim,linux,macos,archive,visualstudiocode,windows
 
 .direnv
+*.bak
